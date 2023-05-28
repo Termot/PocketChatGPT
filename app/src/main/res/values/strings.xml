@@ -1,0 +1,9 @@
+<resources>
+    <string name="menu_button_description">Открыть меню</string>
+    <string name="navigation_drawer_open">Открыть навигацию</string>
+    <string name="navigation_drawer_close">Закрыть навигацию</string>
+    <string name="app_name">ChatGPT</string>
+    <string name="chatIdTextView">Выберите чат</string>
+    <string name="addChatButton">Добавить новый чат</string>
+    <string name="cancelButton">Отмена</string>
+</resources>

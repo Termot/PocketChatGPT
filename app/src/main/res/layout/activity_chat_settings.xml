@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/app_background_color">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/textInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Введите текст"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#6C6B6B"/>
+
+        <TextView
+            android:id="@+id/tokenCountTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Количество токенов: 0"
+            android:padding="16dp"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/countTokensButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Подсчитать токены"
+            app:backgroundTint="@null"
+            android:background="@drawable/button_background"
+            style="@style/MenuButton"/>
+
+
+        <EditText
+            android:id="@+id/textInput2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Введите размер шрифта"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#6C6B6B"/>
+
+        <TextView
+            android:id="@+id/textSizeTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Размер шрифта: 16"
+            android:padding="16dp"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/textSizeButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Изменить размер шрифта"
+            app:backgroundTint="@null"
+            android:background="@drawable/button_background"
+            style="@style/MenuButton"/>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

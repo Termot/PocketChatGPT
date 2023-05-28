@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ChatGPT" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Цвет текста в Toolbar -->
+        <item name="android:textColorPrimary">#9B9B9B</item>
+
+        <!-- Цвет кнопки в Toolbar -->
+        <item name="android:colorControlNormal">#9B9B9B</item>
+    </style>
+
+    <style name="Theme.ChatGPT" parent="Base.Theme.ChatGPT" />
+</resources>
